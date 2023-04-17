@@ -1,4 +1,4 @@
-import{b as r}from"./index-e3986918.js";/*!
+import{b as r}from"./index-f9ec8004.js";/*!
  * (C) Ionic http://ionicframework.com - MIT License
  */const c="ION-CONTENT",T="ion-content",l=".ion-content-scroll-host",N=`${T}, ${l}`,s=o=>o.tagName===c,i=async o=>s(o)?(await new Promise(t=>r(o,t)),o.getScrollElement()):o,O=o=>o.closest(N),C=(o,t)=>s(o)?o.scrollToTop(t):Promise.resolve(o.scrollTo({top:0,left:0,behavior:t>0?"smooth":"auto"})),m=(o,t,n,e)=>s(o)?o.scrollByPoint(t,n,e):Promise.resolve(o.scrollBy({top:n,left:t,behavior:e>0?"smooth":"auto"}));export{m as a,O as f,i as g,C as s};
-//# sourceMappingURL=index8-4efd1b3a.js.map
+//# sourceMappingURL=index8-e04d35a6.js.map

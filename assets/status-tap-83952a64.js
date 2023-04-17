@@ -1,4 +1,4 @@
-import{r as i,b as a,w as c}from"./index-e3986918.js";import{f as d,s as l}from"./index8-4efd1b3a.js";/*!
+import{r as i,b as a,w as c}from"./index-f9ec8004.js";import{f as d,s as l}from"./index8-e04d35a6.js";/*!
  * (C) Ionic http://ionicframework.com - MIT License
  */const p=()=>{const e=window;e.addEventListener("statusTap",()=>{i(()=>{const n=e.innerWidth,s=e.innerHeight,o=document.elementFromPoint(n/2,s/2);if(!o)return;const t=d(o);t&&new Promise(r=>a(t,r)).then(()=>{c(async()=>{t.style.setProperty("--overflow","hidden"),await l(t,300),t.style.removeProperty("--overflow")})})})})};export{p as startStatusTap};
-//# sourceMappingURL=status-tap-a1af97aa.js.map
+//# sourceMappingURL=status-tap-83952a64.js.map
